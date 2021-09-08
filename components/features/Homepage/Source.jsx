@@ -24,6 +24,7 @@ const Source = ({ number, name, email }) => {
                 <span>{name}</span>
                 <span>{email}</span>
                 <DeleteButton color="red">Delete</DeleteButton>
+                <DeleteButton color="green">View</DeleteButton>
             </Row>
             <hr></hr>
         </>
