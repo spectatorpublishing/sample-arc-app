@@ -13,5 +13,8 @@
   "license": "ISC",
   "devDependencies": {
     "@arc-fusion/cli": "^2.0.6"
+  },
+  "dependencies": {
+    "styled-components": "^5.3.1"
   }
 }
