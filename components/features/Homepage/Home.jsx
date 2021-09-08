@@ -7,6 +7,7 @@ import GlobalAuthorData from '../GlobalData/GlobalAuthorData'
 import { authorFilter } from '../../../content/sources/author-service'
 import SourcesList from "./SourcesList"
 
+
 const Wrapper = styled.div`
     font-family: Arial, Helvetica, sans-serif;
 `;
@@ -23,7 +24,7 @@ const Home = () => {
           <Navbar />
           <main>
             <InputForm />
-            <SourcesList/>
+            <AuthorsWithData/>
           </main>
         </Wrapper>
       );

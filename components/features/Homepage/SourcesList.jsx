@@ -1,25 +1,20 @@
 import React from 'react';
 import Source from './Source';
 
-const SourcesList = (props) => {
+const SourcesList = ({authorData}) => {
     return(
         <>
-            <Source
-                number={1}  
-                name="Presbo"
-                email= "presbo@columbia.edu"
-            />
-            <Source
-            number={2}
-            name="John Jay Mouse"
-            email= "mouse@columbia.edu"
-            />
-            <Source
-            number={3}
-            name="Water bottle man"
-            email= "bottleflipper@columbia.edu"
-            />
-         </>
+        {/* {console.log(authorData)} */}
+        {/* {console.log(authorData[0])} */}
+        {/* {console.log(authorData.q_results)} */}
+        {authorData && authorData.q_results.map((author, index)=>(
+           <Source
+            number={index+1}  
+            name={`${author.firstName} ${author.lastName}`}
+            email= {author.email}
+           /> 
+        ))}
+        </>
     )
 }
 export default SourcesList;
