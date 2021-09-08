@@ -1,11 +1,16 @@
 import React from 'react';
+import styled from 'styled-components';
 import Navbar from './Navbar';
 import InputForm from './InputForm';
 import Source from './Source';
 
+const Wrapper = styled.div`
+    font-family: Arial, Helvetica, sans-serif;
+`;
+
 const Home = () => {
     return (
-        <div className="App">
+        <Wrapper>
           <Navbar />
           <main>
             <InputForm />
@@ -25,7 +30,7 @@ const Home = () => {
               email= "bottleflipper@columbia.edu"
             />
           </main>
-        </div>
+        </Wrapper>
       );
 };
 
