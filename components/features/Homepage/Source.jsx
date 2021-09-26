@@ -16,17 +16,23 @@ const DeleteButton = styled.button`
     font-weight: bold;
 `;
 
-const Source = ({ number, name, email }) => {
+const View = styled.a`
+    padding: 0.5rem 1rem;
+    background: ${props => props.color};
+    font-weight: bold;
+`;
+
+
+const Source = ({ number, firstName, lastName, email }) => {
     return (
         <>
             <Row>
                 <span>{number}:</span>
-                <span>{name}</span>
+                <span>{`${firstName} ${lastName}`}</span>
                 <span>{email}</span>
                 <DeleteButton color="red">Delete</DeleteButton>
-                <DeleteButton color="green">View</DeleteButton>
+                <View color="green" href={`/pf/authors/${firstName}-${lastName}/`}>View</View>
             </Row>
-            <hr></hr>
         </>
     )
 };
