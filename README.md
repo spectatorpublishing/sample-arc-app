@@ -32,6 +32,7 @@ Note that if this is not working, replace the mocks folder with this one: https:
 ### Migrate the spec sources project from React to Arc
 1. Copy and paste components from React project to Arc
 	- Place components in components/features/{name of page}
+	- In another terminal tab, run `fusion rebuild`
         - On pagebuilder, create a new page (with `/homepage` as the URI) and add `Home.jsx` as a block to the page. Publish the page.
         - Ensure that you can see the page at `http://localhost`
 
