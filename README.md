@@ -26,6 +26,7 @@
 }
 ```
 Note that if this is not working, replace the mocks folder with this one: https://drive.google.com/drive/folders/1BIFc5bBq1YbPnouqDFLRtc_ox994rOtB?usp=sharing
+- Make sure Docker is started and running on your computer (just search for it in your applications folder and click on it)
 - Run `fusion start`, and ensure that you can go to `http://localhost/pagebuilder/pages/` and create a new page
 
 ### Migrate the spec sources project from React to Arc
