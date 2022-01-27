@@ -5,7 +5,7 @@
 - Install the arc fusion cli `npm i -g @arc-fusion/cli`
 - Make sure that docker is downloaded from [here](https://www.docker.com/products/docker-desktop)
 - Create folder for project `mkdir sample-arc-app`
-- Run ‘fusion init’ to get the basic project skeleton
+- Run `fusion init` to get the basic project skeleton
 - Add env keys (ask your EM) to the `.env` file
 - Create a file under `mocks` called `user`, and paste in this information:
 ```
