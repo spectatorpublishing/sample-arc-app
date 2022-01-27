@@ -25,6 +25,7 @@
   }
 }
 ```
+Note that if this is not working, replace the mocks folder with this one: https://drive.google.com/drive/folders/1BIFc5bBq1YbPnouqDFLRtc_ox994rOtB?usp=sharing
 - Run `fusion start`, and ensure that you can go to `http://localhost/pagebuilder/pages/` and create a new page
 
 ### Migrate the spec sources project from React to Arc
