@@ -33,7 +33,7 @@ Note that if this is not working, replace the mocks folder with this one: https:
 1. Copy and paste components from React project to Arc
 	- Place components in components/features/{name of page}
 	- In another terminal tab, run `fusion rebuild`
-        - On pagebuilder, create a new page (with `/homepage` as the URI) and add `Home.jsx` as a block to the page. Publish the page.
+	- On pagebuilder, create a new page (with `/homepage` as the URI) and add `Home.jsx` as a block to the page. Publish the page.
         - Ensure that you can see the page at `http://localhost`
 
 2. Create content source to get 10 recent authors from spectator
