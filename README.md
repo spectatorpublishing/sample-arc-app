@@ -1,4 +1,4 @@
-# Traning Materials: Sample Arc Application
+# Training Materials: Sample Arc Application
 
 ## How to use this repository:
 ### Create Arc Fusion Project
